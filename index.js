@@ -38,6 +38,7 @@ function handleGenerate() {
 
   console.log("generated str: " + str);
 
-  document.getElementById("result").value = str;
+  document.getElementById("result").textContent = str;
 }
 
+window.onload = handleGenerate();
